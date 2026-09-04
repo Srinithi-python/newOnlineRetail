@@ -1,0 +1,25 @@
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+openpyxl>=3.0.7
+
+
+
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+Included Packagespandas: 
+Required for data manipulation, cleaning, aggregation, and loading Excel files (pd.read_excel).  
+numpy: Required for vector numerical operations and array data type support. 
+ matplotlib: Required for data visualizations and temporal trend plotting. 
+
+%pip install matplotlib
+%pip install seaborn
+
+ 
+ openpyxl: Required as the underlying engine by Pandas to parse and read .xlsx files.  
+
+python -m pip install openpyxl
