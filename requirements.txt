@@ -23,3 +23,22 @@ numpy: Required for vector numerical operations and array data type support.
  openpyxl: Required as the underlying engine by Pandas to parse and read .xlsx files.  
 
 python -m pip install openpyxl
+
+git hub commands :
+-----------------
+
+git init
+
+git remote add origin https://github.com/Srinithi-python/newOnlineRetail.git
+
+git add .
+git branch
+ git commit -m "Initial commit"
+
+ git config user.name "Srinithi-python"
+
+ git config user.email "srinithikarthikeyan2020@gmail.com"
+
+git commit -m "Initial commit"
+
+ git push -u origin master
